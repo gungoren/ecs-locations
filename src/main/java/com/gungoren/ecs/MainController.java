@@ -18,10 +18,12 @@ public class MainController {
         Location location1 = new Location("Location 900", "123 Main st", 32.01, -128.19);
         Location location2 = new Location("Location 800", "444 22 nn st", 48.05, -55.19);
         Location location3 = new Location("Location 700", "888 Main st", 12.0, -28.19);
+        Location location4 = new Location("Istanbul 700", "Alemdağ avenue", 12.0, -28.19);
 
         retailList.add(location1);
         retailList.add(location2);
         retailList.add(location3);
+        retailList.add(location4);
 
         return retailList;
     }
